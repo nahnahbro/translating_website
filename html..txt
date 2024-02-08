@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Language Translator</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <h1>Translate Between Languages</h1>
+  <form action="#">
+    <label for="text">Text to translate:</label>
+    <textarea id="text" name="text" rows="5"></textarea><br>
+    <label for="languages">Select languages:</label>
+    <select id="from" name="from">
+      </select>
+    <span>—</span>
+    <select id="to" name="to">
+      </select><br>
+    <button type="submit">Translate</button>
+  </form>
+  <div id="translation-result"></div>
+
+  <script src="script.js"></script> </body>
+</html>
